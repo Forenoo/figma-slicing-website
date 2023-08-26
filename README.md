@@ -1,4 +1,4 @@
-# Simple Portfoiio Website
+# Simple Portfolio Website
 
 Ini adalah latihan slicing figma design ke code untuk diri saya sendiri.
 
@@ -16,8 +16,8 @@ Tampilan sekilas dari screenshot
 
 Klik [disini](https://forenoo.github.io/figma-slicing-website/) untuk melihat keseluruhan tampilan website yang sudah saya buat.
 
-## Preview 1
+Preview 1
 ![Website Preview](https://raw.githubusercontent.com/Forenoo/figma-slicing-website/main/assets/img/preview-1.png)
 
-## Preview 2
+Preview 2
 ![Website Preview](https://raw.githubusercontent.com/Forenoo/figma-slicing-website/main/assets/img/preview-2.png)
