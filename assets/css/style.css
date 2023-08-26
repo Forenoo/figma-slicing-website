@@ -480,18 +480,18 @@ section {
     flex-direction: column;
     border-right: 1px solid #E8E8FB;
     padding-right: 162px;
-    gap: 42px;
 }
 
 .contact-wrapper .contact-content .contact-detail .detail-header {
     display: flex;
     flex-direction: column;
-    gap: 11px;
+    text-align: start;
 }
 
 .contact-wrapper .contact-content .contact-detail .detail-header h3 {
     font-family: var(--heading-font);
     font-size: 24px;
+    padding-bottom: 20px;
     font-weight: 600;
 }
 
@@ -505,6 +505,7 @@ section {
 .contact-wrapper .contact-content .contact-detail .detail-information {
     display: flex;
     flex-direction: column;
+    padding-top: 60px;
     gap: 30px;
 }
 
@@ -620,7 +621,7 @@ section {
 @media screen and (max-width:768px) {
     .contact-wrapper {
         width: 100%;
-        height: 750px;
+        height: auto;
     }
 
     .contact-wrapper .contact-content {
@@ -629,15 +630,21 @@ section {
     }
 
     .contact-wrapper .contact-content .contact-detail {
-        padding-left: 30px;
+        padding: 0 8%;
+        border-right: none;
+        gap: 20px;
     }
 
-    .contact-wrapper .contact-content .contact-detail .detail-header {
-        justify-content: center;
+    .contact-wrapper .contact-content .contact-detail .detail-header h3 {
+        font-size: 22px;
+    }
+
+    .contact-wrapper .contact-content .contact-detail .detail-header p {
+        font-size: 14px;
     }
 
     .contact-wrapper .contact-content .contact-detail .detail-information {
-        margin-top: -30px;
+        margin-top: -45px;
     }
 
     .contact-wrapper .contact-content .contact-detail .detail-information .detail {
@@ -647,21 +654,33 @@ section {
         align-items: center;
     }
 
+    .contact-wrapper .contact-content .contact-detail .detail-information .detail .detail-head {
+        font-size: 18px;
+    }
+    
+    .contact-wrapper .contact-content .contact-detail .detail-information .detail .detail-par {
+        font-size: 14px;
+    }
+
     .contact-wrapper form {
-        gap: 15px;
-        margin: 30px auto;
-        max-width: 19rem;
+        gap: 10px;
+        margin: 20px auto;
+        padding: 0 8%;
+    }
+
+    .contact-wrapper form .contact-inputdata {
+        gap: 20px;
     }
 
     .contact-wrapper form .contact-inputdata .contact-email {
-        margin-left: 15px;
+        margin-left: 0;
     }
 
     .contact-wrapper form .contact-inputmessage textarea {
-        height: 121px;
+        height: 130px;
     }
 
     .contact-wrapper form .send-btn {
-        margin-top: auto;
+        margin-top: 10px;
     }
 }
