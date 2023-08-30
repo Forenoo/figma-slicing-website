@@ -3,6 +3,8 @@
 Ini adalah latihan slicing figma design ke code untuk diri saya sendiri.
 
 Website ini saya buat menggunakan HTML & Vanilla CSS dengan tambahan sedikit JavaScript untuk responsive navbar.
+
+Tujuan saya melakukan ini untuk melatih logika dan pengetahuan saya mengenai CSS
 ## Credit
 
 Terima Kasih website [codedesign](https://codedesign.dev/) telah memberikan beberapa kumpulan refrensi design untuk latihan.
