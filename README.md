@@ -1,4 +1,4 @@
-# Simple Portfolio Website
+# Simple Profile Website
 
 Ini adalah latihan slicing figma design ke code untuk diri saya sendiri.
 
